@@ -1,0 +1,33 @@
+#container_slider {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#slider {
+	display: flex;
+	justify-content: center;
+	height: 400px;
+	width: 550px;
+	overflow-x: hidden;
+}
+
+#contenu_slider {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.fleche {
+	opacity: 0.6;
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+}
+
+.fleche:hover {
+	opacity: 1;
+}
+
+h1 {
+	text-align: center;
+}
